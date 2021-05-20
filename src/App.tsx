@@ -11,6 +11,7 @@ import WelcomeName from "./WelcomeName";
 import ConditionalText from "./ConditionalText";
 import HiddenName from "./HiddenName";
 import Test from "./pages/Test";
+import Trade from "./pages/Trade";
 
 const App = () => {
   const [latestName, setLatestName] = useState("");
@@ -25,6 +26,7 @@ const App = () => {
       <Button name="nextop" callback={updateLatestName} />
       <article>{latestName} is clicked!</article>
       <Test />
+      <Trade />
     </>
   );
   const preventKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
