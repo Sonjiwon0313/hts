@@ -21,11 +21,11 @@ const App = () => {
 
   return (
     <>
-      <Button name="hello" callback={updateLatestName} />
+      {/* <Button name="hello" callback={updateLatestName} />
       <Button name="world" callback={updateLatestName} />
       <Button name="nextop" callback={updateLatestName} />
       <article>{latestName} is clicked!</article>
-      <Test />
+      <Test /> */}
       <Trade />
     </>
   );
