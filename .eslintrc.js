@@ -23,5 +23,7 @@ module.exports = {
     "@typescript-eslint/no-floating-promises": "off",
     "import/extensions": "off",
     "arrow-body-style": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-return": "off",
   },
 };

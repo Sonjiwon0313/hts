@@ -52,7 +52,7 @@ const OrderSell = (props: OrderSellType) => {
       <FormControl fullWidth>
         <Grid container>
           <Grid item xs={3} style={LabelStyle}>
-            <FormLabel>주문가능</FormLabel>
+            <FormLabel>매도가능</FormLabel>
           </Grid>
           <Grid item xs={9}>
             <Box textAlign="right" padding="20px">
