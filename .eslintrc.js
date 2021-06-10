@@ -18,7 +18,7 @@ module.exports = {
   rules: {
     "max-len": ["error", { code: 150, ignoreTemplateLiterals: true }],
     "@typescript-eslint/no-non-null-assertion": "off",
-    "Qtypescript-eslint/lines-between-class-members": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/no-floating-promises": "off",
     "import/extensions": "off",

@@ -14,7 +14,7 @@ const Trade = () => {
         </Grid>
         <Grid item xs={12} lg={10}>
           <Grid container>
-            <Grid item xs={12} lg={12} style={{ backgroundColor: "#ff2fff" }}>
+            <Grid item xs={12} lg={12}>
               <CurrentPrice />
             </Grid>
             <Grid item xs={12} lg={12}>
